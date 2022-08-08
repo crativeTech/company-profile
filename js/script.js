@@ -7,4 +7,8 @@ tombolMenu.onclick = function() {
 
 menu.onclick = function() {
     menu.classList.toggle('active');
+    
 }
+
+
+

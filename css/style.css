@@ -16,12 +16,12 @@ body {
     position: relative;
 }
 
-.logo a {
-    font-size:30px;
-    font-weight: 800;
+.logo img {
+    /* font-size:30px; */
+    /* font-weight: 400px; */
     float: left;
-    font-family: 'comic sans ms';
-    color: #364f6b;
+    /* font-family: 'comic sans ms'; */
+    color: white;
 }
 
 .menu {
@@ -34,9 +34,9 @@ nav {
     display: flex;
     line-height: 80px;
     position: sticky;
-    position: -webkit-sticky; 
+    position: webkit-sticky; 
     top: 0;
-    background: #FFFFFF;
+    background-color:white;
     z-index: 1;
     /* border-bottom:1px solid #364f6b; */
 }
@@ -73,17 +73,19 @@ section {
 .kolom {
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 40px;
 }
 
 .kolom .deskripsi {
     font-size: 20px;
+    margin-right: 40px;
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #364f6b;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -175,7 +177,6 @@ p {
 }
 
 #contact {
-    background: #3f72af;
     padding:50px 0px 50px 0px;
 }
 
@@ -203,11 +204,11 @@ h3 {
 }
 
 h5 {
-    font-family: 'comic sans ms';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 50;
     font-size: 20;
     /* margin-bottom: 20px; */
-    color: #364f6b;
+    color: #b6b6c7;
     width: 100%;
     /* line-height: 50px; */
 }
@@ -224,11 +225,11 @@ h5 {
         width: 90%;
     }
 
-    .logo a {
+    /* .logo a {
         display: block;
         width: 100%;
         text-align: center;
-    }
+    } */
 
     nav .menu {
         width: 100%;
@@ -266,6 +267,8 @@ h5 {
 
     section {
         padding-top: 5rem;
-      }
+      } 
+
+  
       
 }
