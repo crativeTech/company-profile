@@ -263,4 +263,9 @@ h5 {
     .kartu-partner {
         width: 50%;
     }
+
+    section {
+        padding-top: 5rem;
+      }
+      
 }
